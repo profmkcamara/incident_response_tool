@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>View Incidents</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Recorded Incidents</h1>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Type</th>
+                <th>Description</th>
+                <th>Date</th>
+                <th>Status</th>
+            </tr>
+            {% for incident in incidents %}
+            <tr>
+                <td>{{ incident[0] }}</td>
+                <td>{{ incident[1] }}</td>
+                <td>{{ incident[2] }}</td>
+                <td>{{ incident[3] }}</td>
+                <td>{{ incident[4] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        <a href="/">Back to Home</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Create Incident</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Create New Incident</h1>
+        <form method="POST">
+            <input type="text" name="incident_type" placeholder="Incident Type" required>
+            <textarea name="description" placeholder="Description" required></textarea>
+            <input type="date" name="date" required>
+            <select name="status">
+                <option value="Open">Open</option>
+                <option value="In Progress">In Progress</option>
+                <option value="Resolved">Resolved</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+        <a href="/">Back to Home</a>
+    </div>
+</body>
+</html>
