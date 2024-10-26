@@ -1,14 +1,5 @@
 # Incident Response Tool 🚀
 
-## Table of Contents 📚
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
 ## Overview 🌟
 The **Incident Response Tool** is a powerful solution designed to empower cybersecurity professionals in efficiently managing and responding to security incidents. By automating critical aspects of incident handling, this tool minimizes response times and enhances your organization's security posture. 🔐
 
