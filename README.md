@@ -1,64 +1,34 @@
-# Incident Response Tool 🚀
+# Incident Response Tool
 
-## Overview 🌟
-The **Incident Response Tool** is a powerful solution designed to empower cybersecurity professionals in efficiently managing and responding to security incidents. By automating critical aspects of incident handling, this tool minimizes response times and enhances your organization's security posture. 🔐
+An AI-assisted tool for fast, automated incident handling. Detects, categorizes, alerts, and reports security events in real time.
 
-## Features 🛠️
-- **Real-time Monitoring:** 🔍 Track and respond to incidents as they happen.
-- **Automated Alerts:** 📲 Get notified of predefined security events.
-- **Incident Categorization:** 📊 Automatically categorize incidents based on severity and type.
-- **Comprehensive Reporting:** 📑 Generate detailed reports for analysis and compliance.
-- **User-Friendly Interface:** 🎨 Intuitive design for seamless navigation.
-- **Customizable Workflows:** ⚙️ Tailor the response process to meet your unique needs.
+## Features
 
-## Installation 🏗️
-To get started with the Incident Response Tool, follow these steps:
+* Real-time threat monitoring
+* Automated alerts
+* Severity-based incident tagging
+* Customizable workflows
+* Web-based dashboard
+* Detailed reporting
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/coderip321/Incident-Response-Tool.git
-   cd Incident-Response-Tool
-   ```
+## Setup
 
-2. **Install Dependencies:**
-   Ensure you have Python 3.6 or higher installed. Then, install the required packages using pip:
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+git clone https://github.com/coderip321/Incident-Response-Tool.git
+cd Incident-Response-Tool
+pip install -r requirements.txt
+```
 
-3. **Configuration:**
-   Update the configuration file located at `config/config.yml` with your specific settings.
+Edit `config/config.yml` to match your setup.
 
-4. **Run the Tool:**
-   Start the tool using:
-   ```bash
-   python main.py
-   ```
+## Usage
 
-## Usage 💻
-Once the tool is running, access it via your web browser at `http://localhost:5000`. Follow the on-screen instructions to monitor incidents, generate reports, and manage responses effectively.
+```bash
+python main.py
+```
 
-## Contributing 🤝
-We welcome contributions! If you'd like to contribute to the Incident Response Tool, please follow these steps:
+Access via `http://localhost:5000`
 
-1. Fork the repository. 🍴
-2. Create a new branch (`git checkout -b feature-branch`). 🌳
-3. Make your changes and commit them (`git commit -m 'Add new feature'`). ✏️
-4. Push to the branch (`git push origin feature-branch`). 📤
-5. Open a pull request. 🔄
+## License
 
-## License 📜
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact 📧
-For any questions or feedback, please reach out to:
-
-**Prof. M. K. Camara**  
-CEO, Coderip  
-Email: [khalidcamzy5@gmail.com](mailto:khalidcamzy5@gmail.com)  
-GitHub: [coderip321](https://github.com/coderip321)  
-GitLab: [coderip320](https://gitlab.com/coderip320)  
-
----
-
-Thank you for checking out the Incident Response Tool! We hope you find it valuable in your cybersecurity endeavors. Happy coding! 🎉
+MIT License. See [LICENSE](LICENSE) for details.
